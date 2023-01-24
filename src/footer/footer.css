@@ -1,0 +1,29 @@
+.container{
+  width: 100%;
+  background-color: #F9FAFB;
+  /* padding: 5%; */
+
+}
+.row{
+  display: flex;
+  padding:2% 5%;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+
+}
+.col{
+  margin-right: 3rem;
+  text-align: left;
+  flex: 1;
+}
+.col p, .col h2, .col h3,.col span{
+  text-align: left;
+  font-size: .8rem;
+  line-height: 1.3rem;
+  color: #667085;
+}
+
+.col:first-child{
+  flex: 3;
+}
